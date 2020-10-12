@@ -77,6 +77,7 @@ body {
   list-style: none;
   display: flex;
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-site .site-navigation .address,
 .footer-site .site-navigation .email,
@@ -87,6 +88,7 @@ body {
 .site-navigation a:hover,
 .site-navigation a:focus  {
   color:var(--accent-color);
+  
 }
 
 .site-nav a {
@@ -97,6 +99,7 @@ body {
         color:var(--title-text-color);
         list-style: none;
         display: flex;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
       }
 .header-site-nav {
@@ -110,6 +113,7 @@ body {
 .site-nav a:focus
 {
     color:var(--accent-color);
+   
 }
     .list { list-style: none;}
     .link {text-decoration: none;}
@@ -132,6 +136,7 @@ body {
     color:var(--primary-text-color);
     margin-right: 50px;
     margin-left: auto;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .email:hover,
@@ -139,6 +144,7 @@ body {
 .address:hover,
 .address:focus
 {color:var(--accent-color);
+ 
 }
 .address {
     font-weight: 500;
@@ -150,6 +156,7 @@ body {
     color:var(--primary-text-color);
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
   }
   .container-address {
@@ -295,20 +302,24 @@ button{
   fill: #AFB1B8;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list {
   display: flex; 
   justify-content: space-evenly;
   padding: 0;
   margin: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
   background-color:var(--accent-color)
+ 
 }
 .social-list-link .social-svg:hover ,
 .social-list-link .social-svg :focus {
   fill: var(--primary-white-color);
+ 
 }
 .clients-title {
   font-weight: bold;
@@ -347,6 +358,7 @@ button{
   color: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -369,6 +381,7 @@ button{
     border-style: none;
     text-transform: none;
     box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-ourworks-button {
   padding-top: 94px;
@@ -484,7 +497,6 @@ button{
   margin-left: 70px;
 }
 .social-list-footer {
-
   display: flex;
   justify-content: space-evenly;
   padding: 0;
@@ -499,6 +511,7 @@ button{
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);;
   fill: var(--primary-white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-link:not(:last-child) {
   margin-right: 10px;
@@ -509,6 +522,7 @@ button{
 }
 .social-list-link-footer:hover .social-svg {
   fill: var(--primary-white-color);
+
 
 }
 
@@ -558,6 +572,8 @@ img {
   }
   .our-works-box:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
   }
   .container-ourworks .our-works-box {
     margin-right: 30px;
