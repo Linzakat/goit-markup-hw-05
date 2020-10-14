@@ -562,7 +562,7 @@ img {
   }
   
   .our-works-box {
-    width 370px;
+    width: 370px;
     background:var(--primary-white-color);
     border: 1px solid #EEEEEE;
     display: block;
